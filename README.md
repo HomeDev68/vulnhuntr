@@ -76,10 +76,17 @@ pipx install git+https://github.com/protectai/vulnhuntr.git
 ```
 
 Alternatively you can install directly from source using poetry:
-```
-git clone https://github.com/protectai/vulnhuntr
-cd vulnhuntr && poetry install
-```
+
+  1. Install using poetry:
+  ```bash
+  git clone https://github.com/protectai/vulnhuntr
+  cd vulnhuntr && poetry install
+  ```
+  2. Rename `.env.example` to `.env`:
+  ```bash
+  mv .env.example .env
+  ```
+  3. Add required variables as needed in .env
 
 ## Usage
 
